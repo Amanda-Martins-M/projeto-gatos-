@@ -1,0 +1,138 @@
+:root {
+
+    --color-light-blue: #387E96;
+    --color-blue-medium: #065E7C;
+    --color-white: #FFFFFF;
+    --color-grey: #202024;
+    --color-deep-blue: #121214;
+
+    font-family: mulish;
+}
+
+html, body{
+    max-width: 27rem;
+    height: 100%;
+    margin: 0;
+}
+
+header{
+    background-color: var(--color-blue-medium);
+    width: 27rem;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-header{
+    width: 42px;
+    height: 42px;;
+}
+
+.logo-header{
+    width: 42px;
+    height: 42px;
+}
+
+.pesquisa{
+    background-color: hsla(0, 0%, 100%, 0.2);
+    height: 2.5rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0.25rem;
+}
+
+.pesquisa p{
+    color: var(--color-white);
+    padding-left: 1rem;
+}
+
+h1{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.joia{
+    background-color: var(--color-blue-medium);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.75rem;
+}
+
+.desjoia{
+    background-color: var(--color-blue-medium);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reacoes{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.principal, aside{
+    padding-left: 1.25rem;
+}
+
+.img-header{
+    height: 14rem;
+    width: 27rem;
+}
+
+.astronautas{
+    padding-right: 1.25rem;
+}
+
+h2{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.gatos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.legendas{
+    max-width: 13.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3{
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+.legendas p{
+    font-size: 0.875rem;
+    margin-top: 0.7rem;
+}
+
+footer{
+    width: 27rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-light-blue);
+}
+
+h4{
+    color: var(--color-white);
+}
