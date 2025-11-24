@@ -15,6 +15,7 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
+
 }
 
 .gatos {
@@ -23,6 +24,7 @@ body {
     height: 6.25rem;
     align-items: center;
     gap: 0.5rem;
+    cursor: pointer;
 }
 
 aside {
@@ -77,6 +79,8 @@ label ::placeholder {
 
 .img-header{
     border-radius: 1rem;
+    width: 30rem;
+    height: auto;
 }
 
 
@@ -109,7 +113,7 @@ label ::placeholder {
     }
 
     .img-header {
-        width: 70%;
+        width: 32rem;
     }
 
     main {
@@ -123,9 +127,12 @@ label ::placeholder {
 
 /* Tablets */
 
-@media (min-width: 500px) {
+@media (min-width: 500px) and (max-width:1024px){
     header {
         height: 6.125rem;
+    }
+    .img-header{
+        width: 23.5rem;
     }
 
     header img {
@@ -155,11 +162,11 @@ header img {
     width: 3.375rem;
 }
 .img-header{
-    width: 25rem;
+    width: 20rem;
 }
 
 #searchbar {
-    width: 12.5rem;
+    width: 12rem;
 }
 
 .legendas {
@@ -167,9 +174,9 @@ header img {
 }
 
 main {
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
-    margin-top: 0.75rem;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
 }
 
 }
@@ -213,6 +220,14 @@ h4{
     flex-direction: row;
     margin-bottom: 2rem;
     margin-top: 2rem;
+}
+
+button{
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 aside{
